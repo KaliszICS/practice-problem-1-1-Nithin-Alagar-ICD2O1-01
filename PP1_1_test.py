@@ -1,6 +1,6 @@
 import os.path
 import sys
-from PP1_1 import *
+from PP1_1
 
 def test_q1(capsys):
 
@@ -11,7 +11,7 @@ def test_q1(capsys):
   except:
     sys.exit()
 
-  q1()
+  PP1_1.q1()
   captured = capsys.readouterr()
   assert captured.out == "Hello World\n"
 
@@ -23,7 +23,7 @@ def test_q2(capsys):
   except:
     sys.exit()
 
-  q2()
+  PP1_1.q2()
   captured = capsys.readouterr()
   assert captured.out == "1\n2\n3\n4\n5\n"
 
@@ -35,7 +35,7 @@ def test_q3(capsys):
   except:
     sys.exit()
 
-  q3()
+  PP1_1.q3()
   captured = capsys.readouterr()
   assert captured.out == " Help Me!\n"
 
@@ -47,6 +47,6 @@ def test_q4(capsys):
   except:
     sys.exit()
 
-  q4()
+  PP1_1.q4()
   captured = capsys.readouterr()
   assert captured.out == "3 x 3 = 9\n"
