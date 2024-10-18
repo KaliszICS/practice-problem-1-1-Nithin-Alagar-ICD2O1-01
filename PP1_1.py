@@ -1,5 +1,5 @@
 def q1():
-  print("Hello world")
+  print("Hello World")
 def q2():
   #Write Assignment code here
   print(1)
